@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Sudoku</title>
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    </head>
+
+    <body>
+        <header>Sudoku Blaster</header>
+        <br>
+        <script src = "JS/algorithm.js"></script>
+        <script src = "JS/sudoku.js"></script>
+        <table>
+            <script type="text/javascript">
+                draw(); //draws the sudoku in the form of a table
+            </script>
+        </table>
+        <p>
+            <button onclick="solve();" class="button">Blast</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="window.location.reload();"
+			class="button">Clear</button>
+        </p>
+
+    </body>
+
+</html>
